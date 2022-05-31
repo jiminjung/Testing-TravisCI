@@ -43,7 +43,7 @@ public class WeatherAppTest extends TestCase{
 	public void testcompareHumidity1() {
 		expect(dataMock.getHumidity()).andReturn(20);
 		replay(dataMock);
-		this.assertEquals(10, appMock.compareHumidity(10));
+		this.assertEquals(120, appMock.compareHumidity(10));
 		verify(dataMock);
 	}
 	public void testcompareHumidity2() {
