@@ -5,4 +5,17 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>java-utils</name>
   <description>java-util</description>
+  
+  <dependencies>
+  	<dependency>
+  		 <groupId>junit</groupId>
+ 		 <artifactId>junit</artifactId>
+  		 <version>4.13.2</version>
+  	</dependency>
+  	<dependency>
+	   <groupId>org.easymock</groupId>
+	   <artifactId>easymock</artifactId>
+	   <version>3.2</version>
+	</dependency>
+  </dependencies>
 </project>
