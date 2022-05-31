@@ -36,7 +36,7 @@ public class WeatherAppTest extends TestCase{
 	public void testcompareTemperature3() {
 		expect(dataMock.getTemperature()).andReturn(30);
 		replay(dataMock);
-		this.assertEquals(-10, appMock.compareTemperature(40));
+		this.assertEquals(10, appMock.compareTemperature(40));
 		verify(dataMock);
 	}
 
@@ -55,7 +55,7 @@ public class WeatherAppTest extends TestCase{
 	public void testcompareHumidity3() {
 		expect(dataMock.getHumidity()).andReturn(20);
 		replay(dataMock);
-		this.assertEquals(-10, appMock.compareHumidity(30));
+		this.assertEquals(10, appMock.compareHumidity(30));
 		verify(dataMock);
 	}
 }

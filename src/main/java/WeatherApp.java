@@ -37,7 +37,7 @@ public class WeatherApp {
 		}
 		else {
 			System.out.println("Humidity : "+(beforHumidity-humidity)+" degrees drier");
-			return (beforHumidity-humidity);
+			return (humidity-beforHumidity);
 		}
 	}
 	
