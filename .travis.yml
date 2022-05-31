@@ -16,3 +16,6 @@ notifications:
   email:
     recipients:
       - jimin606@naver.com
+
+script:
+  maven clean install
