@@ -18,7 +18,7 @@ public class CalTest extends TestCase{
 	public void testDoAdd() {
 		expect(mock.add(10, 20)).andReturn(30).times(2);
 		replay(mock);
-		this.assertEquals(30, mMock.doAdd(10, 20));
+		this.assertEquals(20, mMock.doAdd(10, 20));
 		verify(mock);
 	}
 	public void testDoSubstract() {
