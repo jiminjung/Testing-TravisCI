@@ -5,7 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>java-utils</name>
   <description>java-util</description>
-  
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
@@ -13,7 +12,7 @@
   
   <build>
   	<testSourceDirectory>
-  		src/main/java/
+  		src/test/java/
   	</testSourceDirectory>
   </build>
   
