@@ -1,6 +1,9 @@
 
 public class CalMain {
 
+		public static void main(String[] args) {
+			System.out.println("sysout");
+		}
 		
 		CalIF cal;
 		
